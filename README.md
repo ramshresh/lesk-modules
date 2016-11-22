@@ -17,7 +17,7 @@ Quick Installation
 Begin by installing the package through Composer.
 
 ```
-composer require sroutier/lesk-modules
+composer require ramshresh/lesk-modules
 ```
 
 Once this operation is complete, simply add both the service provider and facade classes to your project's `config/app.php` file:
@@ -25,13 +25,13 @@ Once this operation is complete, simply add both the service provider and facade
 #### Service Provider
 
 ```php
-Sroutier\LESKModules\ModulesServiceProvider::class,
+Ramshresh\LESKModules\ModulesServiceProvider::class,
 ```
 
 #### Facade
 
 ```php
-'Module' => Sroutier\LESKModules\Facades\Module::class,
+'Module' => Ramshresh\LESKModules\Facades\Module::class,
 ```
 
 And that's it! With your coffee in reach, start building out some awesome modules!
